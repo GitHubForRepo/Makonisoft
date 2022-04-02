@@ -5,13 +5,73 @@
 @model UserViewModel
 
 <h1>Users</h1>
+@using (Html.BeginForm("Create", "Users", FormMethod.Post))
+{
+    @Html.AntiForgeryToken();
 
-    @using (Html.BeginForm("Create", "Users", FormMethod.Post))
-    {
     @Html.LabelFor(model => model.FirstName) @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } }) @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+    @Html.ValidationMessageFor(model => model.FirstName)
     @Html.LabelFor(model => model.LastName) @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } }) @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
-<input type="submit" value="Submit" />
-    }
+    <input type="submit" value="Submit" />
+    @Html.ActionLink("Click to view data", "Download", "Users", new { @class = "btn btn-primary" })
+}
+
+@if (ViewBag.Message != null)
+{
+    <script type="text/javascript">
+
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            };
+    </script>
+
+}
+
+
+
+
+@*<script type="text/javascript">
+    function DownloadFile(fileName) {
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/api/Download/File",
+            data: '{fileName: "' + fileName + '"}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "text",
+            success: function (r) {
+                //Convert Base64 string to Byte Array.
+                var bytes = Base64ToBytes(r);
+
+                //Convert Byte Array to BLOB.
+                var blob = new Blob([bytes], { type: "application/octetstream" });
+
+                //Check the Browser type and download the File.
+                var isIE = false || !!document.documentMode;
+                if (isIE) {
+                    window.navigator.msSaveBlob(blob, fileName);
+                } else {
+                    var url = window.URL || window.webkitURL;
+                    link = url.createObjectURL(blob);
+                    var a = $("<a />");
+                    a.attr("download", fileName);
+                    a.attr("href", link);
+                    $("body").append(a);
+                    a[0].click();
+                    $("body").remove(a);
+                }
+            }
+        });
+    };
+    function Base64ToBytes(base64) {
+        var s = window.atob(base64);
+        var bytes = new Uint8Array(s.length);
+        for (var i = 0; i < s.length; i++) {
+            bytes[i] = s.charCodeAt(i);
+        }
+        return bytes;
+    };
+</script>*@
 
 
 

@@ -11,3 +11,16 @@ C:\Users\Inn\source\repos\MakoniSoft\FeatureObject\obj\Debug\netcoreapp3.1\Featu
 C:\Users\Inn\source\repos\MakoniSoft\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.csproj.CopyComplete
 C:\Users\Inn\source\repos\MakoniSoft\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.dll
 C:\Users\Inn\source\repos\MakoniSoft\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.pdb
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\bin\Debug\netcoreapp3.1\FeatureObject.deps.json
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\bin\Debug\netcoreapp3.1\FeatureObject.dll
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\bin\Debug\netcoreapp3.1\FeatureObject.pdb
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.csproj.AssemblyReference.cache
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.AssemblyInfoInputs.cache
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.AssemblyInfo.cs
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.csproj.CoreCompileInputs.cache
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.dll
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.pdb
+C:\Users\Inn\source\repos\Interview-MakoniSoft\makonisoft-interview\FeatureObject\obj\Debug\netcoreapp3.1\FeatureObject.csproj.CopyComplete

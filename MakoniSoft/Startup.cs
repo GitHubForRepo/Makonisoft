@@ -25,6 +25,7 @@ namespace MakoniSoft
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddAutoMapper(typeof(Startup));
             services.ConfigureFeatureObjects();
             services.ConfigureRepositories();
         }
@@ -53,7 +54,7 @@ namespace MakoniSoft
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Users}/{action=Details}/{id?}");
             });
         }
     }

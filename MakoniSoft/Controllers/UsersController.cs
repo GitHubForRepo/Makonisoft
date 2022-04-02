@@ -1,4 +1,5 @@
-﻿using FeatureObject;
+﻿using AutoMapper;
+using FeatureObject;
 using MakoniSoft.DataStore.Models;
 using MakoniSoft.Models;
 using Microsoft.AspNetCore.Http;
@@ -15,30 +16,45 @@ namespace MakoniSoft.Controllers
     public class UsersController : Controller
     {
         private IUserDetails _userDetails;
-        public UsersController(IUserDetails userDetails)
+        private readonly IMapper _mapper;
+        private IDownload _download;
+
+        public UsersController(IUserDetails userDetails, IMapper mapper,IDownload download)
         {
             _userDetails = userDetails;
+            _mapper = mapper;
+            _download = download;
         }
         // GET: UserController
         public IActionResult Details()
         {
             //var users = _userDetails.GetUsers();
+            //UserViewModel userViewModel = _mapper.Map<UserViewModel>(users);
             return View();
         }
 
         // GET: UserController/Create
+        [ValidateAntiForgeryToken]
         public IActionResult Create(UserViewModel newuser)
         {
-            Users user = new Users
+            if(ModelState.IsValid)
             {
-                FirstName = newuser.FirstName,
-                LastName = newuser.LastName
-            };
-            _userDetails.SaveUser(user);
-            ViewData["message"] = true;
+                Users user = new Users
+                {
+                    FirstName = newuser.FirstName,
+                    LastName = newuser.LastName
+                };
+                _userDetails.SaveUser(user);
+                ViewData["Message"] = "Success";
+            }
             return RedirectToAction("Details");
         }
 
-       
+        public ActionResult Download()
+        {
+             return Content(_download.Get());
+        }
+
+
     }
 }
