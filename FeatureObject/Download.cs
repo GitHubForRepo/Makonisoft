@@ -19,7 +19,8 @@ namespace FeatureObject
         }
         public string Get()
         {
-            return File.ReadAllText(_filePath);
+            var fileContent = File.ReadAllText(_filePath);
+            return fileContent.Length <=0 ? "No data to show " : fileContent;
         }
     }
 }
