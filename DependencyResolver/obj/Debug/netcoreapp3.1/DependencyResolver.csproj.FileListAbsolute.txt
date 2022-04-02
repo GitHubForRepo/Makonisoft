@@ -1,0 +1,15 @@
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\DependencyResolver.deps.json
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\DependencyResolver.dll
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\DependencyResolver.pdb
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\FeatureObject.dll
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\FeatureObject.pdb
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.csproj.AssemblyReference.cache
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.AssemblyInfoInputs.cache
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.AssemblyInfo.cs
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.csproj.CoreCompileInputs.cache
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.csproj.CopyComplete
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.dll
+C:\Users\Inn\source\repos\MakoniSoft\DependencyResolver\obj\Debug\netcoreapp3.1\DependencyResolver.pdb
